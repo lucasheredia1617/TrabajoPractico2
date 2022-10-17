@@ -23,6 +23,13 @@ public class EpicDoubleHashMap <K extends Number, V, T> {
         map2.put(key,value2);
     }
 
-    
+    public void getFirstValue(){
+        map1.get()
+    }
+
+    public void getSecondValue(){
+        map2.get()
+    }
+
 
 }
