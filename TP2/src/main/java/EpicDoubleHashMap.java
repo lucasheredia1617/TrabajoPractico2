@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Map;
 
 public class EpicDoubleHashMap <K extends Number, V, T> {
     HashMap<K, V> map1;
@@ -24,12 +23,26 @@ public class EpicDoubleHashMap <K extends Number, V, T> {
     }
 
     public void getFirstValue(){
-        map1.get()
+        //map1.get();
     }
 
     public void getSecondValue(){
-        map2.get()
+        //map2.get();
     }
 
+    public static void addItem() throws ExistentKeyException{
 
+    }
+
+    public static void deleteKey() throws DeleteKeyException {
+
+    }
+
+    public static void addItemThreeTimes() throws AddItemException{
+
+    }
+
+    public static void getValue() throws GetValueException {
+
+    }
 }
