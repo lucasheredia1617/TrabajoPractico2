@@ -7,5 +7,6 @@ public class EpicDoubleHashMap <K extends Number, V, T> {
         this.number = number;
         this.object = object;
         this.object2 = object2;
+		this.object2 = object2;
     }
 }
