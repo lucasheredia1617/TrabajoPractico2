@@ -4,5 +4,7 @@ public class Main {
         map.addFirstType(5, "Hola");
         map.addSecondType(6, "Chau");
         map.addThirdType(7, 6, "Hola");
+        map.addThirdType(7, 6, "Hola");
+        map.addThirdType(7, 6, "Hola");
     }
 }
