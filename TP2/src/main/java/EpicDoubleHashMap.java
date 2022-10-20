@@ -1,11 +1,48 @@
-public class EpicDoubleHashMap <K extends Number, V, T> {
-    K number;
-    V object;
-    T object2;
+import java.util.HashMap;
 
-    public EpicDoubleHashMap(K number, V object, T object2) {
-        this.number = number;
-        this.object = object;
-        this.object2 = object2;
+public class EpicDoubleHashMap <K extends Number, V, T> {
+    HashMap<K, V> map1;
+    HashMap<K, T> map2;
+
+    public EpicDoubleHashMap(){
+        map1= new HashMap<>();
+        map2= new HashMap<>();
+    }
+
+    public void addFirstType(K key, V value){
+        map1.put(key, value);
+    }
+
+    public void addSecondType(K key, T value){
+        map2.put(key, value);
+    }
+
+    public void addTwo(K key, V value, T value2){
+        map1.put(key,value);
+        map2.put(key,value2);
+    }
+
+    public void getFirstValue(){
+        //map1.get();
+    }
+
+    public void getSecondValue(){
+        //map2.get();
+    }
+
+    public static void addItem() throws ExistentKeyException{
+
+    }
+
+    public static void deleteKey() throws DeleteKeyException {
+
+    }
+
+    public static void addItemThreeTimes() throws AddItemException{
+
+    }
+
+    public static void getValue() throws GetValueException {
+
     }
 }
